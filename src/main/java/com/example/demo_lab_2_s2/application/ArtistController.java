@@ -1,12 +1,11 @@
 package com.example.demo_lab_2_s2.application;
 
-import com.example.demo_lab_2_s2.ArtistRepository;
+import com.example.demo_lab_2_s2.repository.ArtistRepository;
 import com.example.demo_lab_2_s2.domain.Artist;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.net.URI;
 import java.util.List;
 
 @RestController
